@@ -2,9 +2,6 @@ select*
 from [Portfolio Project]..CovidDeaths
 order by 3,4;
 
-----select*
-----from [Portfolio Project]..CovidVaccinations$
-----order by 3,4;
 
 select location, date, total_cases, new_cases, population
 from [Portfolio Project]..CovidDeaths
